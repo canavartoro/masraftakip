@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6463BC51D9D5DFD00F0C0D7 /* MasrafTurData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6463BC41D9D5DFD00F0C0D7 /* MasrafTurData.swift */; };
+		D6463BC71D9D605D00F0C0D7 /* OdemeTurData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6463BC61D9D605D00F0C0D7 /* OdemeTurData.swift */; };
+		D6501B621D92A3DE00B7CE31 /* MasrafViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6501B611D92A3DE00B7CE31 /* MasrafViewController.swift */; };
+		D6501B641D92A3F300B7CE31 /* OdemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6501B631D92A3F300B7CE31 /* OdemeViewController.swift */; };
+		D6501B731D92A4AF00B7CE31 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D6501B691D92A4AF00B7CE31 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6501B741D92A4AF00B7CE31 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D6501B691D92A4AF00B7CE31 /* FMDatabase.m */; };
+		D6501B751D92A4AF00B7CE31 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6501B6B1D92A4AF00B7CE31 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6501B761D92A4AF00B7CE31 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6501B6B1D92A4AF00B7CE31 /* FMDatabaseAdditions.m */; };
+		D6501B771D92A4AF00B7CE31 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6501B6D1D92A4AF00B7CE31 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6501B781D92A4AF00B7CE31 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6501B6D1D92A4AF00B7CE31 /* FMDatabasePool.m */; };
+		D6501B791D92A4AF00B7CE31 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D6501B6F1D92A4AF00B7CE31 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6501B7A1D92A4AF00B7CE31 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D6501B6F1D92A4AF00B7CE31 /* FMDatabaseQueue.m */; };
+		D6501B7B1D92A4AF00B7CE31 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D6501B721D92A4AF00B7CE31 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6501B7C1D92A4AF00B7CE31 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D6501B721D92A4AF00B7CE31 /* FMResultSet.m */; };
+		D6501B7F1D92A71200B7CE31 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D6501B7E1D92A71200B7CE31 /* libsqlite3.0.tbd */; };
+		D6501B811D92A96900B7CE31 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6501B801D92A96900B7CE31 /* Utilities.swift */; };
+		D6501B821D92A96900B7CE31 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6501B801D92A96900B7CE31 /* Utilities.swift */; };
+		D6501B871D92B08800B7CE31 /* HesapTurData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6501B861D92B08800B7CE31 /* HesapTurData.swift */; };
+		D6501B881D92B08800B7CE31 /* HesapTurData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6501B861D92B08800B7CE31 /* HesapTurData.swift */; };
+		D6501B8A1D92B0F700B7CE31 /* HareketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6501B891D92B0F700B7CE31 /* HareketData.swift */; };
+		D6501B8B1D92B0F700B7CE31 /* HareketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6501B891D92B0F700B7CE31 /* HareketData.swift */; };
+		D6501B8D1D92B21C00B7CE31 /* MasrafDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6501B8C1D92B21C00B7CE31 /* MasrafDB.swift */; };
+		D6501B8E1D92B21C00B7CE31 /* MasrafDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6501B8C1D92B21C00B7CE31 /* MasrafDB.swift */; };
+		D6501B931D92B7FE00B7CE31 /* masraf.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D6501B921D92B7FE00B7CE31 /* masraf.sqlite */; };
+		D67AD17D1DEC839A003B285F /* DetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67AD17C1DEC839A003B285F /* DetayViewController.swift */; };
+		D68671BC1DE6D2EF00834E1A /* AlertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68671BB1DE6D2EF00834E1A /* AlertUtil.swift */; };
+		D68671C01DE6E10D00834E1A /* DataObje.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68671BF1DE6E10D00834E1A /* DataObje.swift */; };
+		D68671C21DE6FE4900834E1A /* TextFieldUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68671C11DE6FE4900834E1A /* TextFieldUtility.swift */; };
+		D68671C41DE71D8C00834E1A /* RaporViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68671C31DE71D8C00834E1A /* RaporViewController.swift */; };
+		D68671C61DE7226B00834E1A /* MasrafTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68671C51DE7226B00834E1A /* MasrafTableCellView.swift */; };
+		D6E4B0831D75C5F300D898D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B0821D75C5F300D898D5 /* AppDelegate.swift */; };
+		D6E4B0851D75C5F300D898D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B0841D75C5F300D898D5 /* ViewController.swift */; };
+		D6E4B0881D75C5F300D898D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E4B0861D75C5F300D898D5 /* Main.storyboard */; };
+		D6E4B08A1D75C5F300D898D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E4B0891D75C5F300D898D5 /* Assets.xcassets */; };
+		D6E4B08D1D75C5F300D898D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E4B08B1D75C5F300D898D5 /* LaunchScreen.storyboard */; };
+		D6E4B0981D75C5F400D898D5 /* masraftakipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B0971D75C5F400D898D5 /* masraftakipTests.swift */; };
+		D6E4B0A31D75C5F400D898D5 /* masraftakipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B0A21D75C5F400D898D5 /* masraftakipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6E4B0941D75C5F400D898D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E4B0771D75C5F300D898D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E4B07E1D75C5F300D898D5;
+			remoteInfo = masraftakip;
+		};
+		D6E4B09F1D75C5F400D898D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E4B0771D75C5F300D898D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E4B07E1D75C5F300D898D5;
+			remoteInfo = masraftakip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6463BC41D9D5DFD00F0C0D7 /* MasrafTurData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasrafTurData.swift; sourceTree = "<group>"; };
+		D6463BC61D9D605D00F0C0D7 /* OdemeTurData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OdemeTurData.swift; sourceTree = "<group>"; };
+		D6501B611D92A3DE00B7CE31 /* MasrafViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasrafViewController.swift; sourceTree = "<group>"; };
+		D6501B631D92A3F300B7CE31 /* OdemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OdemeViewController.swift; sourceTree = "<group>"; };
+		D6501B681D92A4AF00B7CE31 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		D6501B691D92A4AF00B7CE31 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		D6501B6A1D92A4AF00B7CE31 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		D6501B6B1D92A4AF00B7CE31 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		D6501B6C1D92A4AF00B7CE31 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		D6501B6D1D92A4AF00B7CE31 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		D6501B6E1D92A4AF00B7CE31 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		D6501B6F1D92A4AF00B7CE31 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		D6501B701D92A4AF00B7CE31 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		D6501B711D92A4AF00B7CE31 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		D6501B721D92A4AF00B7CE31 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		D6501B7D1D92A57C00B7CE31 /* masraftakip-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "masraftakip-Bridging-Header.h"; sourceTree = "<group>"; };
+		D6501B7E1D92A71200B7CE31 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		D6501B801D92A96900B7CE31 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D6501B861D92B08800B7CE31 /* HesapTurData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HesapTurData.swift; sourceTree = "<group>"; };
+		D6501B891D92B0F700B7CE31 /* HareketData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HareketData.swift; sourceTree = "<group>"; };
+		D6501B8C1D92B21C00B7CE31 /* MasrafDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasrafDB.swift; sourceTree = "<group>"; };
+		D6501B921D92B7FE00B7CE31 /* masraf.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = masraf.sqlite; sourceTree = "<group>"; };
+		D67AD17C1DEC839A003B285F /* DetayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetayViewController.swift; sourceTree = "<group>"; };
+		D68671BB1DE6D2EF00834E1A /* AlertUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertUtil.swift; sourceTree = "<group>"; };
+		D68671BF1DE6E10D00834E1A /* DataObje.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataObje.swift; sourceTree = "<group>"; };
+		D68671C11DE6FE4900834E1A /* TextFieldUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldUtility.swift; sourceTree = "<group>"; };
+		D68671C31DE71D8C00834E1A /* RaporViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaporViewController.swift; sourceTree = "<group>"; };
+		D68671C51DE7226B00834E1A /* MasrafTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasrafTableCellView.swift; sourceTree = "<group>"; };
+		D6E4B07F1D75C5F300D898D5 /* masraftakip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = masraftakip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E4B0821D75C5F300D898D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6E4B0841D75C5F300D898D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6E4B0871D75C5F300D898D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6E4B0891D75C5F300D898D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6E4B08C1D75C5F300D898D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6E4B08E1D75C5F400D898D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E4B0931D75C5F400D898D5 /* masraftakipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = masraftakipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E4B0971D75C5F400D898D5 /* masraftakipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = masraftakipTests.swift; sourceTree = "<group>"; };
+		D6E4B0991D75C5F400D898D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E4B09E1D75C5F400D898D5 /* masraftakipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = masraftakipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E4B0A21D75C5F400D898D5 /* masraftakipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = masraftakipUITests.swift; sourceTree = "<group>"; };
+		D6E4B0A41D75C5F400D898D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6E4B07C1D75C5F300D898D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6501B7F1D92A71200B7CE31 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E4B0901D75C5F400D898D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E4B09B1D75C5F400D898D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6501B651D92A44600B7CE31 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				D6501B681D92A4AF00B7CE31 /* FMDatabase.h */,
+				D6501B691D92A4AF00B7CE31 /* FMDatabase.m */,
+				D6501B6A1D92A4AF00B7CE31 /* FMDatabaseAdditions.h */,
+				D6501B6B1D92A4AF00B7CE31 /* FMDatabaseAdditions.m */,
+				D6501B6C1D92A4AF00B7CE31 /* FMDatabasePool.h */,
+				D6501B6D1D92A4AF00B7CE31 /* FMDatabasePool.m */,
+				D6501B6E1D92A4AF00B7CE31 /* FMDatabaseQueue.h */,
+				D6501B6F1D92A4AF00B7CE31 /* FMDatabaseQueue.m */,
+				D6501B701D92A4AF00B7CE31 /* FMDB.h */,
+				D6501B711D92A4AF00B7CE31 /* FMResultSet.h */,
+				D6501B721D92A4AF00B7CE31 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		D6E4B0761D75C5F300D898D5 = {
+			isa = PBXGroup;
+			children = (
+				D6501B7E1D92A71200B7CE31 /* libsqlite3.0.tbd */,
+				D6E4B0811D75C5F300D898D5 /* masraftakip */,
+				D6E4B0961D75C5F400D898D5 /* masraftakipTests */,
+				D6E4B0A11D75C5F400D898D5 /* masraftakipUITests */,
+				D6E4B0801D75C5F300D898D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E4B0801D75C5F300D898D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4B07F1D75C5F300D898D5 /* masraftakip.app */,
+				D6E4B0931D75C5F400D898D5 /* masraftakipTests.xctest */,
+				D6E4B09E1D75C5F400D898D5 /* masraftakipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6E4B0811D75C5F300D898D5 /* masraftakip */ = {
+			isa = PBXGroup;
+			children = (
+				D6501B921D92B7FE00B7CE31 /* masraf.sqlite */,
+				D6501B651D92A44600B7CE31 /* FMDB */,
+				D6E4B0821D75C5F300D898D5 /* AppDelegate.swift */,
+				D6E4B0841D75C5F300D898D5 /* ViewController.swift */,
+				D6E4B0861D75C5F300D898D5 /* Main.storyboard */,
+				D6E4B0891D75C5F300D898D5 /* Assets.xcassets */,
+				D6E4B08B1D75C5F300D898D5 /* LaunchScreen.storyboard */,
+				D6E4B08E1D75C5F400D898D5 /* Info.plist */,
+				D6501B611D92A3DE00B7CE31 /* MasrafViewController.swift */,
+				D6501B631D92A3F300B7CE31 /* OdemeViewController.swift */,
+				D6501B7D1D92A57C00B7CE31 /* masraftakip-Bridging-Header.h */,
+				D6501B801D92A96900B7CE31 /* Utilities.swift */,
+				D6501B861D92B08800B7CE31 /* HesapTurData.swift */,
+				D6501B891D92B0F700B7CE31 /* HareketData.swift */,
+				D6501B8C1D92B21C00B7CE31 /* MasrafDB.swift */,
+				D6463BC41D9D5DFD00F0C0D7 /* MasrafTurData.swift */,
+				D6463BC61D9D605D00F0C0D7 /* OdemeTurData.swift */,
+				D68671BB1DE6D2EF00834E1A /* AlertUtil.swift */,
+				D68671BF1DE6E10D00834E1A /* DataObje.swift */,
+				D68671C11DE6FE4900834E1A /* TextFieldUtility.swift */,
+				D68671C31DE71D8C00834E1A /* RaporViewController.swift */,
+				D68671C51DE7226B00834E1A /* MasrafTableCellView.swift */,
+				D67AD17C1DEC839A003B285F /* DetayViewController.swift */,
+			);
+			path = masraftakip;
+			sourceTree = "<group>";
+		};
+		D6E4B0961D75C5F400D898D5 /* masraftakipTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4B0971D75C5F400D898D5 /* masraftakipTests.swift */,
+				D6E4B0991D75C5F400D898D5 /* Info.plist */,
+			);
+			path = masraftakipTests;
+			sourceTree = "<group>";
+		};
+		D6E4B0A11D75C5F400D898D5 /* masraftakipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4B0A21D75C5F400D898D5 /* masraftakipUITests.swift */,
+				D6E4B0A41D75C5F400D898D5 /* Info.plist */,
+			);
+			path = masraftakipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6E4B07E1D75C5F300D898D5 /* masraftakip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E4B0A71D75C5F400D898D5 /* Build configuration list for PBXNativeTarget "masraftakip" */;
+			buildPhases = (
+				D6E4B07B1D75C5F300D898D5 /* Sources */,
+				D6E4B07C1D75C5F300D898D5 /* Frameworks */,
+				D6E4B07D1D75C5F300D898D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = masraftakip;
+			productName = masraftakip;
+			productReference = D6E4B07F1D75C5F300D898D5 /* masraftakip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6E4B0921D75C5F400D898D5 /* masraftakipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E4B0AA1D75C5F400D898D5 /* Build configuration list for PBXNativeTarget "masraftakipTests" */;
+			buildPhases = (
+				D6E4B08F1D75C5F400D898D5 /* Sources */,
+				D6E4B0901D75C5F400D898D5 /* Frameworks */,
+				D6E4B0911D75C5F400D898D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6E4B0951D75C5F400D898D5 /* PBXTargetDependency */,
+			);
+			name = masraftakipTests;
+			productName = masraftakipTests;
+			productReference = D6E4B0931D75C5F400D898D5 /* masraftakipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6E4B09D1D75C5F400D898D5 /* masraftakipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E4B0AD1D75C5F400D898D5 /* Build configuration list for PBXNativeTarget "masraftakipUITests" */;
+			buildPhases = (
+				D6E4B09A1D75C5F400D898D5 /* Sources */,
+				D6E4B09B1D75C5F400D898D5 /* Frameworks */,
+				D6E4B09C1D75C5F400D898D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6E4B0A01D75C5F400D898D5 /* PBXTargetDependency */,
+			);
+			name = masraftakipUITests;
+			productName = masraftakipUITests;
+			productReference = D6E4B09E1D75C5F400D898D5 /* masraftakipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6E4B0771D75C5F300D898D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "mustafa bayer";
+				TargetAttributes = {
+					D6E4B07E1D75C5F300D898D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D6E4B0921D75C5F400D898D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D6E4B07E1D75C5F300D898D5;
+					};
+					D6E4B09D1D75C5F400D898D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D6E4B07E1D75C5F300D898D5;
+					};
+				};
+			};
+			buildConfigurationList = D6E4B07A1D75C5F300D898D5 /* Build configuration list for PBXProject "masraftakip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6E4B0761D75C5F300D898D5;
+			productRefGroup = D6E4B0801D75C5F300D898D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6E4B07E1D75C5F300D898D5 /* masraftakip */,
+				D6E4B0921D75C5F400D898D5 /* masraftakipTests */,
+				D6E4B09D1D75C5F400D898D5 /* masraftakipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6E4B07D1D75C5F300D898D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E4B08D1D75C5F300D898D5 /* LaunchScreen.storyboard in Resources */,
+				D6E4B08A1D75C5F300D898D5 /* Assets.xcassets in Resources */,
+				D6501B931D92B7FE00B7CE31 /* masraf.sqlite in Resources */,
+				D6E4B0881D75C5F300D898D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E4B0911D75C5F400D898D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E4B09C1D75C5F400D898D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6E4B07B1D75C5F300D898D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68671BC1DE6D2EF00834E1A /* AlertUtil.swift in Sources */,
+				D67AD17D1DEC839A003B285F /* DetayViewController.swift in Sources */,
+				D6501B621D92A3DE00B7CE31 /* MasrafViewController.swift in Sources */,
+				D6501B791D92A4AF00B7CE31 /* FMDatabaseQueue.m in Sources */,
+				D6501B871D92B08800B7CE31 /* HesapTurData.swift in Sources */,
+				D6463BC51D9D5DFD00F0C0D7 /* MasrafTurData.swift in Sources */,
+				D68671C41DE71D8C00834E1A /* RaporViewController.swift in Sources */,
+				D68671C01DE6E10D00834E1A /* DataObje.swift in Sources */,
+				D6501B641D92A3F300B7CE31 /* OdemeViewController.swift in Sources */,
+				D6E4B0851D75C5F300D898D5 /* ViewController.swift in Sources */,
+				D6501B731D92A4AF00B7CE31 /* FMDatabase.m in Sources */,
+				D6463BC71D9D605D00F0C0D7 /* OdemeTurData.swift in Sources */,
+				D6501B8A1D92B0F700B7CE31 /* HareketData.swift in Sources */,
+				D6501B771D92A4AF00B7CE31 /* FMDatabasePool.m in Sources */,
+				D6501B8D1D92B21C00B7CE31 /* MasrafDB.swift in Sources */,
+				D6501B7B1D92A4AF00B7CE31 /* FMResultSet.m in Sources */,
+				D6E4B0831D75C5F300D898D5 /* AppDelegate.swift in Sources */,
+				D68671C21DE6FE4900834E1A /* TextFieldUtility.swift in Sources */,
+				D68671C61DE7226B00834E1A /* MasrafTableCellView.swift in Sources */,
+				D6501B811D92A96900B7CE31 /* Utilities.swift in Sources */,
+				D6501B751D92A4AF00B7CE31 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E4B08F1D75C5F400D898D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6501B7C1D92A4AF00B7CE31 /* FMResultSet.m in Sources */,
+				D6501B7A1D92A4AF00B7CE31 /* FMDatabaseQueue.m in Sources */,
+				D6501B821D92A96900B7CE31 /* Utilities.swift in Sources */,
+				D6E4B0981D75C5F400D898D5 /* masraftakipTests.swift in Sources */,
+				D6501B781D92A4AF00B7CE31 /* FMDatabasePool.m in Sources */,
+				D6501B8E1D92B21C00B7CE31 /* MasrafDB.swift in Sources */,
+				D6501B741D92A4AF00B7CE31 /* FMDatabase.m in Sources */,
+				D6501B8B1D92B0F700B7CE31 /* HareketData.swift in Sources */,
+				D6501B881D92B08800B7CE31 /* HesapTurData.swift in Sources */,
+				D6501B761D92A4AF00B7CE31 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E4B09A1D75C5F400D898D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E4B0A31D75C5F400D898D5 /* masraftakipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6E4B0951D75C5F400D898D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6E4B07E1D75C5F300D898D5 /* masraftakip */;
+			targetProxy = D6E4B0941D75C5F400D898D5 /* PBXContainerItemProxy */;
+		};
+		D6E4B0A01D75C5F400D898D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6E4B07E1D75C5F300D898D5 /* masraftakip */;
+			targetProxy = D6E4B09F1D75C5F400D898D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6E4B0861D75C5F300D898D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E4B0871D75C5F300D898D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6E4B08B1D75C5F300D898D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6E4B08C1D75C5F300D898D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6E4B0A51D75C5F400D898D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6E4B0A61D75C5F400D898D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6E4B0A81D75C5F400D898D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = masraftakip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toro.masraftakip.masraftakip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "masraftakip/masraftakip-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6E4B0A91D75C5F400D898D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = masraftakip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toro.masraftakip.masraftakip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "masraftakip/masraftakip-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D6E4B0AB1D75C5F400D898D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = masraftakipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toro.masraftakip.masraftakipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "masraftakip/masraftakipTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/masraftakip.app/masraftakip";
+			};
+			name = Debug;
+		};
+		D6E4B0AC1D75C5F400D898D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = masraftakipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toro.masraftakip.masraftakipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "masraftakip/masraftakipTests-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/masraftakip.app/masraftakip";
+			};
+			name = Release;
+		};
+		D6E4B0AE1D75C5F400D898D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = masraftakipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toro.masraftakip.masraftakipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = masraftakip;
+			};
+			name = Debug;
+		};
+		D6E4B0AF1D75C5F400D898D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = masraftakipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toro.masraftakip.masraftakipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = masraftakip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6E4B07A1D75C5F300D898D5 /* Build configuration list for PBXProject "masraftakip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E4B0A51D75C5F400D898D5 /* Debug */,
+				D6E4B0A61D75C5F400D898D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E4B0A71D75C5F400D898D5 /* Build configuration list for PBXNativeTarget "masraftakip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E4B0A81D75C5F400D898D5 /* Debug */,
+				D6E4B0A91D75C5F400D898D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E4B0AA1D75C5F400D898D5 /* Build configuration list for PBXNativeTarget "masraftakipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E4B0AB1D75C5F400D898D5 /* Debug */,
+				D6E4B0AC1D75C5F400D898D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E4B0AD1D75C5F400D898D5 /* Build configuration list for PBXNativeTarget "masraftakipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E4B0AE1D75C5F400D898D5 /* Debug */,
+				D6E4B0AF1D75C5F400D898D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6E4B0771D75C5F300D898D5 /* Project object */;
+}
